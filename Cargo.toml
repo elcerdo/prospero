@@ -1,0 +1,24 @@
+[package]
+name = "wgpu_examples"
+edition = "2024"
+publish = false
+
+[dependencies]
+png = "0.17.16"
+regex = "1.11.1"
+rand = "0.9.0"
+plotters = "0.3.3"
+bytemuck = "1.22.0"
+env_logger = "0.11.7"
+pollster = "0.4"
+wgpu = "24.0.0"
+log = { version = "0.4.21", features = ["std"] }
+clap = { version = "4", features = ["derive"] }
+
+[[example]]
+name = "benchmark"
+path = "benchmark.rs"
+
+[[example]]
+name = "prospero"
+path = "prospero.rs"
