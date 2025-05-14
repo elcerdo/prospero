@@ -37,3 +37,25 @@ SecondDurations {
     total: 1.6200757,
 }
 ```
+
+```
+AdapterInfo {
+    name: "NVIDIA GeForce RTX 4080",
+    vendor: 4318,
+    device: 9988,
+    device_type: DiscreteGpu,
+    driver: "NVIDIA",
+    driver_info: "576.40",
+    backend: Vulkan,
+}
+SecondDurations {
+    init: 0.4064823,
+    generate: 0.0049128,
+    compile: 0.0197058,
+    alloc: 0.0001433,
+    eval: 0.19451539,
+    retrieve: 0.0022252,
+    export: 0.0018883,
+    total: 0.6298731,
+}
+```
